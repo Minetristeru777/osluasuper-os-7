@@ -1,0 +1,18 @@
+shell.run("clear")
+local color=red
+print("Bios")
+io.write("Choose enter to:BM=BootMenu B=Bios E=Exit ")
+name = io.read()
+
+if name == "BM" then
+        shell.run("Bios/BootMenu.lua")
+
+else
+        shell.run("multishell")
+end
+if name == "B" then
+shell.run("Bios/Bios.lua")
+
+else
+        shell.run("multishell")
+end
