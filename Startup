@@ -1,6 +1,6 @@
 shell.run("clear")
 local color=red
-print("Bios")
+print("Loader 1.6")
 io.write("Choose enter to:BM=BootMenu B=Bios E=Exit ")
 name = io.read()
 
