@@ -1,17 +1,15 @@
 shell.run("clear")
 print("Loader 1.6")
-io.write("Choose enter to:BM=BootMenu B=Bios E=Exit ")
-name = io.read()
+print("Choose enter to:BM=BootMenu B=Bios E=Exit ")
+name = read()
 
 if name == "BM" then
         shell.run("Bios/BootMenu.lua")
-
 else
         shell.run("multishell")
 end
 if name == "B" then
-shell.run("Bios/Bios.lua")
-
+        shell.run("Bios/Bios.lua")
 else
         shell.run("multishell")
 end

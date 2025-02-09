@@ -1,6 +1,6 @@
 print("This Program For Manager Server")
-io.write("Choose variant S=Start Server E=Exit ")
-name = io.read()
+print("Choose variant S=Start Server E=Exit ")
+name = read()
 
 if name == "S" then
     print("Starting Server")
@@ -16,7 +16,6 @@ if name == "S" then
 	print("Loading---")
 	sleep(1)
 	shell.run("clear")
-	
 else
-        shell.run("reboot")
+    shell.run("reboot")
 end

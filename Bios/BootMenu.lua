@@ -1,7 +1,7 @@
 shell.run("clear")
 print("BootMenu")
 io.write("Choose OS 1=SuperOS 2=Shell R=Reboot ")
-name = io.read()
+name = read()
 
 if name == "1" then
         shell.run("OS/SuperOS/SuperOS.lua")
