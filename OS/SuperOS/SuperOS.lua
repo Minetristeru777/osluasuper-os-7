@@ -12,7 +12,7 @@ if users then
 else
     shell.run(".user/root/usr.lua")
 end
-print("Enter user:R=Root Enter Name user=Not administrator account RB=Reboot") -- You're giving a prompt to the user, so utilize the print function instead
+print("Enter user:R=Root or usernamer") -- You're giving a prompt to the user, so utilize the print function instead
 nuser = read() --This should be the function you need to be using.
 if nuser == "R" then
     shell.run(".user/root/usr.lua")
